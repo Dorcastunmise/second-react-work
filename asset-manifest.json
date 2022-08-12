@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Dorcastunmise/second-react-work.git/static/css/main.d3dda6a1.css",
+    "main.js": "/Dorcastunmise/second-react-work.git/static/js/main.38417062.js",
+    "static/js/787.c5bc5576.chunk.js": "/Dorcastunmise/second-react-work.git/static/js/787.c5bc5576.chunk.js",
+    "index.html": "/Dorcastunmise/second-react-work.git/index.html",
+    "main.d3dda6a1.css.map": "/Dorcastunmise/second-react-work.git/static/css/main.d3dda6a1.css.map",
+    "main.38417062.js.map": "/Dorcastunmise/second-react-work.git/static/js/main.38417062.js.map",
+    "787.c5bc5576.chunk.js.map": "/Dorcastunmise/second-react-work.git/static/js/787.c5bc5576.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d3dda6a1.css",
+    "static/js/main.38417062.js"
+  ]
+}
