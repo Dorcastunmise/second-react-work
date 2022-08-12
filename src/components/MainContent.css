@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+    height: 100vh;
+    background-color: #282D35;
+}
+
+main {
+    padding: 57px 27px;
+    color: white;
+}
+main::after {
+
+    content: "";
+    background: url("large-logo.png");
+    background-size: 250px;
+    opacity: 0.1;
+    background-repeat: no-repeat;
+    background-position: 108% 55%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+}
+/* 
+Challenge: Place the gray react logo in the background
+
+Don't use an `img` element, but rather set it as the
+`background-image` of the `main` element.
+
+Hint: you'll need to use the following properties:
+- background-image
+- background-repeat
+- background-position
+
+(Or the shorthand `background` property with values for all
+those other properties)
+*/
+.beginning {
+    margin: 0;
+    font-size: 39px;
+    letter-spacing: -0.05em;
+}
+
+.last {
+    margin-top: 46px;
+    max-width: 400px;
+}
+
+.last > li {
+    line-height: 19px;
+    padding-block: 10px;
+}
+.last > li::marker {
+    font-size: 1.4rem;
+    color: #61dafb;
+}
